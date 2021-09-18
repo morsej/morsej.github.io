@@ -6,6 +6,7 @@ body {
   color: #24221f;
   font-family: 'DM Serif Display';font-size: 25px;
 }
+
 div.a {
   	width: 650px;
   	height: 195px;
@@ -18,6 +19,19 @@ div.a {
     left: 30px;
     top: 30px;
 }
+div.a2 {
+  	width: 650px;
+  	height: 195px;
+  	background: #466368;
+    background: linear-gradient(to top left, #E1714E, #FCBD2B);
+  	-ms-transform: rotate(20deg); /* IE 9 */
+  	transform: rotate(-2deg);
+    border-radius: 7px;
+    position: fixed;
+    left: 37px;
+    top: 37px;
+}
+
  div.b {
   	width: 523px;
   	height: 400px;
@@ -29,6 +43,21 @@ div.a {
     position: fixed;
     right: 30px;
     top: 200px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+  }
+ div.b2 {
+  	width: 523px;
+  	height: 400px;
+  	background: #466368;
+    background: linear-gradient(to top right, #E1714E, #FCBD2B);
+  	-ms-transform: rotate(20deg); /* IE 9 */
+  	transform: rotate(2deg);
+    border-radius: 7px;
+    position: fixed;
+    right: 37px;
+    top: 207px;
 	display: flex;
 	justify-content: center;
     align-items: center;
