@@ -1,11 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
 title {
 	display:block;
-	font-weight:bolder;
+	font-weight:bold;
 	text-align:center;
 	font-size:30px;
-	background-color: green;
-	color: white;
+	background-color: #AD91A3;
+	color: #363B16;
 }
