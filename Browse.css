@@ -1,0 +1,333 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-image: url('WaveBrowse.svg');
+	background-repeat: no-repeat;
+	background-position: 80%,;
+	background-size: 1000px;
+}
+
+
+.BadderlocksSize {
+    width: 146px;
+    height: auto;
+}
+
+div.Badderlocks{
+	margin-left: 10%;
+	top: 0px;
+	height: 342px;
+	width: 600px
+}
+
+div.BadderlocksName{
+	float: left;
+	top: -2px;
+	width: 300px;
+	height: 102px;
+	border: 2px solid #2C4E45;
+	background-color: #A6C36F;
+	font-family: tuppence, serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 36px;
+	padding-left: 12px;
+}
+
+div.BadderlocksSci{
+	font-style: italic;
+	font-weight: 500;
+	font-size: 26px;
+}
+
+div.BadderlocksText{
+	float: left;
+	top: -2px;
+	width: 270px;
+	height: 52px;
+	border: 2px solid #2C4E45;
+	background-color: #A6C36F;
+	font-family: tuppence, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	padding-left: 12px;
+	margin-top: -2px;
+}
+
+div.BadderlocksPicture{
+	float: left;
+}
+
+
+.WrackSize {
+    width: 146px;
+    height: auto;
+}
+
+div.Wrack{
+	float: right;
+	margin-right: 10%;
+	top: 0px;
+	width: 600px;
+	height: 232px;
+}
+
+div.WrackName{
+	float: right;
+	top: -2px;
+	width: 300px;
+	height: 102px;
+	border: 2px solid #2C4E45;
+	background-color: #A6C36F;
+	font-family: tuppence, serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 36px;
+	padding-left: 12px;
+}
+
+div.WrackSci{
+	font-style: italic;
+	font-weight: 500;
+	font-size: 26px;
+}
+
+div.WrackText{
+	float: right;
+	top: -2px;
+	width: 270px;
+	height: 74px;
+	border: 2px solid #2C4E45;
+	background-color: #A6C36F;
+	font-family: tuppence, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	padding-left: 12px;
+	margin-top: -2px;
+}
+
+div.WrackPicture{
+	float: right;
+}
+
+div.SeaOak{
+	margin-left: 10%;
+	width: 600px;
+	height: 242px;
+	margin-top: 240px;
+}
+
+div.SeaOakName{
+	float: left;
+	top: -2px;
+	width: 250px;
+	height: 102px;
+	border: 2px solid #2C4E45;
+	background-color: #A6C36F;
+	font-family: tuppence, serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 36px;
+	padding-left: 12px;
+}
+
+div.SeaOakSci{
+	font-style: italic;
+	font-weight: 500;
+	font-size: 26px;
+}
+
+div.SeaOakText{
+	float: left;
+	top: -2px;
+	width: 270px;
+	height: 52px;
+	border: 2px solid #2C4E45;
+	background-color: #A6C36F;
+	font-family: tuppence, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	padding-left: 12px;
+	margin-top: -2px;
+}
+
+div.SeaOakPicture{
+	float: left;
+}
+
+.SeaOakSize {
+    width: 166px;
+    height: auto;
+}
+
+div.visit {
+		margin: auto;
+		left: 0px;
+		width: 160px;
+		height: 41px;
+		background-color: #62A795;
+		position: relative;
+		font-family: tuppence, serif;
+		font-weight: 600;
+		font-style: normal;
+		font-size: 22px;
+		padding-left: 11px;
+		padding-top: 2px;
+}
+div.pad {
+	height: 60px;
+}
+
+@media screen and (max-width: 550px) {
+	.BadderlocksSize {
+		width: 66px;
+		height: auto;
+	}
+	.WrackSize {
+		width: 66px;
+		height: auto;
+	}
+	.SeaOakSize {
+		width: 66px;
+		height: auto;
+	}
+	
+	div.Badderlocks{
+		margin-left: 10%;
+		top: 0px;
+		height: 155px;
+		width: 300px;
+	}
+
+	div.BadderlocksName{
+		float: left;
+		top: -2px;
+		width: 190px;
+		height: 80px;
+		border: 2px solid #2C4E45;
+		background-color: #A6C36F;
+		font-family: tuppence, serif;
+		font-weight: 600;
+		font-style: normal;
+		font-size: 30px;
+		padding-left: 12px;
+	}
+
+	div.BadderlocksSci{
+		font-style: italic;
+		font-weight: 500;
+		font-size: 20px;
+	}
+
+	div.BadderlocksText{
+		float: left;
+		top: -2px;
+		width: 176px;
+		height: 36px;
+		border: 2px solid #2C4E45;
+		background-color: #A6C36F;
+		font-family: tuppence, serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 11px;
+		padding-left: 8px;
+		margin-top: -2px;
+	}
+	
+	div.Wrack{
+		float: right;
+		margin-right: 10%;
+		top: 0px;
+		height: 127px;
+		width: 300px;
+	}
+
+	div.WrackName{
+		float: right;
+		top: -2px;
+		width: 190px;
+		height: 71px;
+		border: 2px solid #2C4E45;
+		background-color: #A6C36F;
+		font-family: tuppence, serif;
+		font-weight: 600;
+		font-style: normal;
+		font-size: 25px;
+		padding-left: 12px;
+	}
+
+	div.WrackSci{
+		font-style: italic;
+		font-weight: 500;
+		font-size: 20px;
+	}
+
+	div.WrackText{
+		float: right;
+		top: -2px;
+		width: 176px;
+		height: 52px;
+		border: 2px solid #2C4E45;
+		background-color: #A6C36F;
+		font-family: tuppence, serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 11px;
+		padding-left: 8px;
+		margin-top: -2px;
+	}
+	
+	div.SeaOak{
+		margin-left: 10%;
+		height: 152px;
+		width: 300px;
+		margin-top: 140px;
+	}
+
+	div.SeaOakName{
+		float: left;
+		top: -2px;
+		width: 190px;
+		height: 80px;
+		border: 2px solid #2C4E45;
+		background-color: #A6C36F;
+		font-family: tuppence, serif;
+		font-weight: 600;
+		font-style: normal;
+		font-size: 30px;
+		padding-left: 12px;
+	}
+
+	div.SeaOakSci{
+		font-style: italic;
+		font-weight: 500;
+		font-size: 20px;
+	}
+
+	div.SeaOakText{
+		float: left;
+		top: -2px;
+		width: 176px;
+		height: 36px;
+		border: 2px solid #2C4E45;
+		background-color: #A6C36F;
+		font-family: tuppence, serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 11px;
+		padding-left: 8px;
+		margin-top: -2px;
+	}
+	
+	
+	body{
+		background-image: url('WaveBrowse.svg');
+		background-repeat: no-repeat;
+		background-position: -350px;
+		background-size: 1000px;
+	}
+}

@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.WireframeSize {
+		width: 600px;
+		height: auto;
+}
+
+div.central {
+	float: right;
+	margin-right: 10vw;
+	top: calc(30vh - 100px);
+	width: 80vw;
+	border: 2px solid #2C4E45;
+	background-color: #A6C36F;
+	font-family: tuppence, serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 21px;
+	padding-left: 25px;
+}
+div.image {
+	margin: auto;
+	margin-right: 15vw;
+	margin-top: -2px;
+	margin-bottom: -2px;
+	float: right;
+	width: 600px;
+	border: 2px solid #2C4E45;
+	line-height: 0;
+	background-color: #A6C36F;
+}
+div.final {
+	float: left;
+	margin-left: 15vw;
+	width: 70vw;
+	border: 2px solid #2C4E45;
+	background-color: #A6C36F;
+	font-family: tuppence, serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 21px;
+	padding-left: 25px;
+	margin-bottom: 80px;
+}
+
+body{
+		background-image: url('WaveV.svg');
+		background-repeat: no-repeat;
+		background-position: 32%, 0%;
+		background-size: 760px;
+}
+
+@media screen and (max-width: 800px) {
+	.WireframeSize {
+		width: 280px;
+		height: auto;
+	}
+	div.image {
+		margin: auto;
+		margin-right: 8vw;
+		margin-top: -2px;
+		margin-bottom: -2px;
+		float: right;
+		width: 280px;
+		border: 2px solid #2C4E45;
+		line-height: 0;
+		background-color: #A6C36F;
+	}
+}

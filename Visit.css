@@ -1,0 +1,199 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-image: url('WaveVisitDesktop.svg');
+	background-repeat: no-repeat;
+	background-position: 32%, 0%;
+	background-size: 2400px;
+	overflow: scroll;
+}
+
+div.pad {
+	height: 600px;
+}
+
+.imageMobile{
+  display: none !important;
+}
+
+div.map{
+  float: right;
+	margin-right: 5%;
+  left: calc(100vw - 780px);
+  margin-top: 0px;
+
+}
+
+div.address{
+	float: right;
+	margin-right: calc(5% + 738px);
+	margin-top: -190px;
+	width: 280px;
+	height: 66px;
+	border: 2px solid #2C4E45;
+	background-color: #A6C36F;
+	font-family: tuppence, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 19px;
+	padding-left: 18px;
+	padding-top: 2px;
+}
+
+div.hours{
+	float: right;
+	margin-right: calc(5% + 738px);
+	margin-top: -120px;
+	width: 210px;
+	height: 66px;
+	border: 2px solid #2C4E45;
+	background-color: #A6C36F;
+	font-family: tuppence, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 19px;
+	padding-left: 18px;
+	padding-top: 2px;
+}
+
+div.contact{
+	float: right;
+	margin-right: calc(5% + 338px);
+	margin-top: -6px;
+	width: 320px;
+	height: 66px;
+	border: 2px solid #2C4E45;
+	background-color: #A6C36F;
+	font-family: tuppence, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 19px;
+	padding-left: 18px;
+	padding-top: 2px;
+}
+
+
+@media screen and (max-width: 1100px) {
+	div.address{
+		float: right;
+		margin-right: calc(5% + 438px);
+		margin-top: -6px;
+		width: 280px;
+		height: 66px;
+		border: 2px solid #2C4E45;
+		background-color: #A6C36F;
+		font-family: tuppence, serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 19px;
+		padding-left: 18px;
+		padding-top: 2px;
+	}
+
+	div.hours{
+		float: right;
+		margin-right: calc(5% - 645px);
+		margin-top: -6px;
+		width: 210px;
+		height: 66px;
+		border: 2px solid #2C4E45;
+		background-color: #A6C36F;
+		font-family: tuppence, serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 19px;
+		padding-left: 18px;
+		padding-top: 2px;
+	}
+
+	div.contact{
+		float: right;
+		margin-right: calc(5% + 338px);
+		margin-top: -2px;
+		width: 320px;
+		height: 66px;
+		border: 2px solid #2C4E45;
+		background-color: #A6C36F;
+		font-family: tuppence, serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 19px;
+		padding-left: 18px;
+		padding-top: 2px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+  .imageDesktop{
+  	display: none !important;
+  }
+
+  .imageMobile{
+  	display: inline !important;
+  }
+
+	div.map{
+	  float: right;
+		margin-right: 5%;
+	  left: calc(100vw - 780px);
+	  margin-top: 0px;
+
+	}
+
+	div.address{
+		float: right;
+		margin-right: 5%;
+		margin-top: -6px;
+		width: 240px;
+		height: 54px;
+		border: 2px solid #2C4E45;
+		background-color: #A6C36F;
+		font-family: tuppence, serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 17px;
+		padding-left: 18px;
+		padding-top: 2px;
+	}
+
+	div.hours{
+		float: right;
+		margin-right: calc(5% + 100px);
+		margin-top: -2px;
+		width: 180px;
+		height: 54px;
+		border: 2px solid #2C4E45;
+		background-color: #A6C36F;
+		font-family: tuppence, serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 17px;
+		padding-left: 18px;
+		padding-top: 2px;
+	}
+
+	div.contact{
+		float: right;
+		margin-right: calc(5% + 0px);
+		margin-top: -2px;
+		width: 270px;
+		height: 52px;
+		border: 2px solid #2C4E45;
+		background-color: #A6C36F;
+		font-family: tuppence, serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 16px;
+		padding-left: 18px;
+		padding-top: 2px;
+	}
+	
+	body{
+		background-image: url('WaveVisitDesktop.svg');
+		background-repeat: no-repeat;
+		background-position: -1000px;
+		background-size: 2400px;
+		overflow: scroll;
+	}
+}
