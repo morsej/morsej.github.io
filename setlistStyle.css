@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+title {
+	display:block;
+	font-weight:bolder;
+	text-align:center;
+	font-size:30px;
+	background-color: green;
+	color: white;
+}

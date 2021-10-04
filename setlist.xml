@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="setlistStlye.css"?>
+<SETLIST>
+	<TITLE>setlist of some folky songs</TITLE>
+	<SONG> 
+		<TITLE>Emily</TITLE>
+		<ARTIST>Joanna Newsom</ARTIST>
+		<GENRE>Progressive Folk</GENRE>
+		<ALBUM>Ys</ALBUM>
+		<YEAR>2006</YEAR>
+	</SONG>
+	<SONG> 
+		<TITLE>Beach Life in Death</TITLE>
+		<ARTIST>Car Seat Headrest</ARTIST>
+		<GENRE>Indie Rock</GENRE>
+		<ALBUM>Twin Fantasy</ALBUM>
+		<YEAR>2011</YEAR>
+	</SONG>
+	<SONG> 
+		<TITLE>Range Life</TITLE>
+		<ARTIST>Pavement</ARTIST>
+		<GENRE>Indie Rock</GENRE>
+		<ALBUM>Crooked Rain, Crooked Rain</ALBUM>
+		<YEAR>1994</YEAR>
+	</SONG>
+	<SONG> 
+		<TITLE>Sycamore</TITLE>
+		<ARTIST>Bill Callahan</ARTIST>
+		<GENRE>Singer/Songwriter</GENRE>
+		<ALBUM>Woke on a Whaleheart</ALBUM>
+		<YEAR>2007</YEAR>
+	</SONG>
+	<SONG> 
+		<TITLE>Voice in Headphones</TITLE>
+		<ARTIST>Mount Eerie</ARTIST>
+		<GENRE>Singer/Songwriter</GENRE>
+		<ALBUM>Lost Wisdom</ALBUM>
+		<YEAR>2008</YEAR>
+	</SONG>
+	<SONG> 
+		<TITLE>Carry Me Ohio</TITLE>
+		<ARTIST>Sun Kil Moon</ARTIST>
+		<GENRE>Folk Rock</GENRE>
+		<ALBUM>Ghosts of the Great Highway</ALBUM>
+		<YEAR>2003</YEAR>
+	</SONG>
+	<SONG> 
+		<TITLE>Nowhere</TITLE>
+		<ARTIST>Thanksgiving</ARTIST>
+		<GENRE>Contemporary Folk</GENRE>
+		<ALBUM>Welcome Nowhere</ALBUM>
+		<YEAR>2004</YEAR>
+	</SONG>
+	<SONG> 
+		<TITLE>Lady Macbeth in Chains</TITLE>
+		<ARTIST>Sufjan Stevens</ARTIST>
+		<GENRE>Indie Folk</GENRE>
+		<ALBUM>A Beginner's Mind</ALBUM>
+		<YEAR>2021</YEAR>
+	</SONG>
+	<SONG> 
+		<TITLE>Golden Boy</TITLE>
+		<ARTIST>The Mountain Goats</ARTIST>
+		<GENRE>Singer/Songwriter</GENRE>
+		<ALBUM>Ghana</ALBUM>
+		<YEAR>2002</YEAR>
+	</SONG>
+	<SONG> 
+		<TITLE>Good Intentions Paving Company</TITLE>
+		<ARTIST>Joanna Newsom</ARTIST>
+		<GENRE>Progressive Folk</GENRE>
+		<ALBUM>Have One on Me</ALBUM>
+		<YEAR>2010</YEAR>
+	</SONG>
+	<SONG> 
+		<TITLE>Farewell Transmission</TITLE>
+		<ARTIST>Songs: Ohia</ARTIST>
+		<GENRE>Folk Rock</GENRE>
+		<ALBUM>The Magnolia Electric Co.</ALBUM>
+		<YEAR>2003</YEAR>
+	</SONG>
+</SETLIST>
