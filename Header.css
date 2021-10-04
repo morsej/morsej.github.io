@@ -273,3 +273,18 @@ a:active {
 }
 }
 
+@media screen and (max-width: 350px) {
+	#header{
+    	width:100vw; 
+		height:62px;
+		position: fixed;
+		top: 0px;
+		left: 90px;
+   		background-color: #62A795;
+		text-align: left;
+    	color: #2C4E45;
+    	font-family: tuppence, serif;
+		font-weight: 500;
+		font-size: 14px;
+	}
+}
