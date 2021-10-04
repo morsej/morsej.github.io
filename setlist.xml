@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="setlistStlye.css"?>
 <SETLIST>
-	<TITLE>setlist of some folky songs</TITLE>
+	<PAGETITLE>setlist of some folky songs</PAGETITLE>
 	<SONG> 
 		<TITLE>Emily</TITLE>
 		<ARTIST>Joanna Newsom</ARTIST>
