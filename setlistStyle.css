@@ -14,8 +14,29 @@ PAGETITLE{
 
 SONG{
 	display: block; 
-	background-color: #A9640F;
+	background-color: #E28512;
 	margin: 0.5em; 
 	padding: 0.5em; 
 	color: #363B16;
+}
+
+TITLE:before{
+	content: "Song: ";
+	text-decoration: bold;
+}
+ARTIST:before{
+	content: "Artist: ";
+	text-decoration: bold;
+}
+GENRE:before{
+	content: "Genre: ";
+	text-decoration: bold;
+}
+ALBUM:before{
+	content: "Album: ";
+	text-decoration: bold;
+}
+YEAR:before{
+	content: "Year: ";
+	text-decoration: bold;
 }
