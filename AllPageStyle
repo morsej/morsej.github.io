@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Style that all the pages share, including body, header, and links*/
+/*James (or someone else) needs to make the header responsive at some point, but this doesnt affect anything else*/
+/*a good feature to add would be showing the user which page they are on*/
+
+/*all of the basic document information*/
+body{
+	font-family: tuppence, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 24px;
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	color: black;
+	background-image: url("Paper.png");
+	background-size: 1500px;
+	background-repeat: no-repeat;
+	position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+/*puts the content in the center*/
+#page-center {
+  	position: relative;
+  	margin-top: 42px;
+	margin: 70px;
+}
+
+/*header*/
+
+.nav {
+    border-bottom: 1px solid black;
+	background-color:rgba(0, 0, 0, 0.2);
+}
+.nav__toggle {
+    position: absolute;
+    cursor: pointer;
+    margin: 0rem 1rem;
+    right: 0;
+}
+
+.close,
+  input[type="checkbox"] {
+    display: none;
+}
+.hamburger {
+    margin-top: 0.2rem;
+}
+.nav__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin: 1rem;
+}
+li {
+   list-style: none;
+    display: none;
+}
+li:first-child {
+    margin-right: auto;
+    display: block;
+}
+.nav__menu a {
+    text-decoration: none;
+    color: initial;
+    font-size: 1.2rem;
+}
+#nav__checkbox:checked ~ ul.nav__menu li {
+    display: block;
+}
+#nav__checkbox:checked ~ label.nav__toggle .hamburger {
+    display: none;
+}
+#nav__checkbox:checked ~ label.nav__toggle .close {
+    display: block;
+} 
+
+@media only screen and (min-width: 768px) {
+    .nav__toggle {
+        display: none;
+    }
+    .nav__menu {
+        flex-direction: row;
+    }
+    .nav__menu li {
+        display: block;
+    }
+}
