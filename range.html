@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	
+	<script language="javascript">
+	
+      // get the inputs
+      const inputs = [].slice.call(document.querySelectorAll('.controls input'));
+
+      // listen for changes
+      inputs.forEach(input => input.addEventListener('change', handleUpdate));
+      inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
+
+      function handleUpdate(e) {
+        // append 'px' to the end of spacing and blur variables
+        const suffix = (this.id === 'base' ? '' : 'px');
+        document.documentElement.style.setProperty(`--${this.id}`, this.value + suffix);
+      }
+
+
+	</script>
+<style>
+	:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+body {
+  text-align: center;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  -webkit-filter: blur(var(--blur));
+  /* 👴 */
+  filter: blur(var(--blur));
+}
+
+.hl {
+  color: var(--base);
+}
+</style>
+</head>
+
+<body>
+	<h2>Update CSS Variables with <span class='hl'>JS</span></h2>
+<div class="controls">
+  <label>Spacing:</label>
+  <input type="range" id="spacing" min="10" max="200" value="10">
+
+  <label>Blur:</label>
+  <input type="range" id="blur" min="0" max="25" value="10">
+
+  <label>Base Color</label>
+  <input type="color" id="base" value="#ffc600">
+</div>
+
+<img src="http://unsplash.it/800/500?image=899">
+
+<p class="love">Made by <a href="https://twitter.com/wesbos">@wesbos</a> 😘</p>
+
+<p class="love">Chrome 49+, Firefox 31+</p>
+</body>
+</html>
