@@ -2,25 +2,6 @@
   --phase: 10s;
 }
 
-img {
-  padding: var(--spacing);
-  background: var(--base);
-  /* ðŸ‘´ */
-  filter: blur(var(--blur));
-}
-
-.hl {
-  color: var(--base);
-}
-
-img {
-  padding: var(--spacing);
-  background: var(--base);
-  -webkit-filter: blur(var(--blur));
-  /* 👴 */
-  filter: blur(var(--blur));
-}
-
 html, body {
   height: 100%;
   width: 100%;
