@@ -2,8 +2,9 @@
 /* CSS Document */
 
 .smallMoon {
-  --smallPhase: 10s;
-  --smallBase: #E274DB;
+  --smallBase: #00AAA2;
+  --smallPhase: -20s;
+	
   height: 100px;
   width: 100px;
   margin: 0 auto;
