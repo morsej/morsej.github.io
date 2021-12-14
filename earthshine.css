@@ -1,5 +1,15 @@
 :root {
-  --time: 1s;
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  -webkit-filter: blur(var(--blur));
+  /* 👴 */
+  filter: blur(var(--blur));
 }
 
 html, body {
