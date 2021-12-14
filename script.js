@@ -5,16 +5,25 @@
       inputs.forEach(input => input.addEventListener('change', handleUpdate));
       inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
 	  
-	  
+	    const stylesheet = document.styleSheets[1];
+			let boxParaRule;
+
+			for(let i = 0; i < stylesheet.cssRules.length; i++) {
+			  if(stylesheet.cssRules[i].selectorText === '.moon') {
+				boxParaRule = stylesheet.cssRules[i];
+			  }
+			}
 
       function handleUpdate(e) {
+		
+		  
         // append 'px' to the end of spacing and blur variables
 		var amount = this.value;
 		if(amount > 50){
 			amount = amount - ((amount - 50) * 2)
-			document.moon.style.setProperty('webkit-transform', 'scaleX(-1)');
+			boxParaRule.moon.style.setProperty('transform', 'scale(-2)');
 		}else{
-			document.moon.style.setProperty('webkit-transform', 'scaleX(1)');
+			boxParaRule.style.setProperty('transform', 'scale(2)');
 		}
 		  
 		const negValue = (amount * -1);

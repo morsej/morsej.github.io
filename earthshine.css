@@ -1,5 +1,6 @@
 :root {
   --phase: 10s;
+  --base: #ffc600;
 }
 
 html, body {
@@ -31,7 +32,6 @@ body {
   background: #B160C2;
   overflow: hidden;
   transform: scale(2);
-
 }
 
 
