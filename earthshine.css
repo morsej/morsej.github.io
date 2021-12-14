@@ -189,7 +189,7 @@ body {
       -moz-animation-play-state: paused;
       -o-animation-play-state: paused;
       animation-play-state: paused;
-	  animation-delay: var(--time);
+	  animation-delay: -12s;
 }
 
 .moon:after {
@@ -199,8 +199,7 @@ body {
   -webkit-animation-play-state: paused;
       -moz-animation-play-state: paused;
       -o-animation-play-state: paused;
-      animation-play-state: paused;
-	animation-delay: var(--time);
+      animation-delay: -12s;
 }
 
 /* stars */
