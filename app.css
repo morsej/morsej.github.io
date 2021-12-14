@@ -75,6 +75,7 @@ h1{
 .smalldot{
 	height: 27px;
 	width: 27px;
+	top: 2px;
 	background-image: linear-gradient(#F61E61 , #D0D5F7);
 	display: inline-block;
 	border-radius: 50%;
