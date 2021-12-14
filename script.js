@@ -7,6 +7,6 @@
 
       function handleUpdate(e) {
         // append 'px' to the end of spacing and blur variables
-        const suffix = (this.id === 'base' ? '' : 'px');
+        const suffix = (this.id === 'base' ? '' : 's');
         document.documentElement.style.setProperty(`--${this.id}`, '-' + this.value + suffix);
       }
