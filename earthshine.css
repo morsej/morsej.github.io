@@ -1,3 +1,7 @@
+:root {
+  --time: 1s;
+}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -27,11 +31,10 @@ body {
   background: #B160C2;
   overflow: hidden;
   transform: scale(2);
-      -webkit-animation-play-state: paused;
-      -moz-animation-play-state: paused;
-      -o-animation-play-state: paused;
-      animation-play-state: paused;
+
 }
+
+
 .moon:before, .moon:after {
   border-radius: 50%;
   content: "";
@@ -179,14 +182,25 @@ body {
   }
 }
 .moon:before {
-  -moz-animation: before-fullmoon linear 10s infinite;
-  -webkit-animation: before-fullmoon linear 10s infinite;
-  animation: before-fullmoon linear 10s infinite;
+  -moz-animation: before-fullmoon linear 100s infinite;
+  -webkit-animation: before-fullmoon linear 100s infinite;
+  animation: before-fullmoon linear 100s infinite;
+	  -webkit-animation-play-state: paused;
+      -moz-animation-play-state: paused;
+      -o-animation-play-state: paused;
+      animation-play-state: paused;
+	  animation-delay: var(--time);
 }
+
 .moon:after {
-  -moz-animation: after-fullmoon linear 10s infinite;
-  -webkit-animation: after-fullmoon linear 10s infinite;
-  animation: after-fullmoon linear 10s infinite;
+  -moz-animation: after-fullmoon linear 100s infinite;
+  -webkit-animation: after-fullmoon linear 100s infinite;
+  animation: after-fullmoon linear 100s infinite;
+  -webkit-animation-play-state: paused;
+      -moz-animation-play-state: paused;
+      -o-animation-play-state: paused;
+      animation-play-state: paused;
+	animation-delay: var(--time);
 }
 
 /* stars */

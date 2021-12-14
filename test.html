@@ -7,6 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="earthshine.css" rel="stylesheet" type="text/css">
 
+	<script>
+	
+	const inputs = [].slice.call(document.querySelectorAll('.controls input'));
+
+      // listen for changes
+      inputs.forEach(input => input.addEventListener('change', handleUpdate));
+      inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
+
+      function handleUpdate(e) {
+        // append 'px' to the end of spacing and blur variables
+        const suffix = (this.id === 'base' ? '' : 'px');
+        document.documentElement.style.setProperty(`--${this.id}`, this.value + suffix);
+      }
+
+	</script>
 
   
 </head>
@@ -14,12 +29,8 @@
 <body>
 
   <div class="stars"></div>
-<div class="moon" style="      
-	  -webkit-animation-play-state: paused;
-      -moz-animation-play-state: paused;
-      -o-animation-play-state: paused;
-      animation-play-state: paused;"></div>
-  
+<div class="moon"></div>
+  <input type="range" min="1" max="200" value="50" class="slider" id="clouds" name ="clouds" style="width: 300px;">
   
 
 </body>
