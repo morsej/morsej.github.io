@@ -29,7 +29,7 @@ body {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background: #B160C2;
+  background: var(--base);
   overflow: hidden;
   transform: scale(2);
 }
@@ -46,15 +46,15 @@ body {
 }
 .moon:before {
   background: #04162E;
-  -moz-box-shadow: inset -10px 0 7px 0px #B160C2;
-  -webkit-box-shadow: inset -10px 0 7px 0px #B160C2;
-  box-shadow: inset -10px 0 7px 0px #B160C2;
+  -moz-box-shadow: inset -10px 0 7px 0px var(--base);
+  -webkit-box-shadow: inset -10px 0 7px 0px var(--base);
+  box-shadow: inset -10px 0 7px 0px var(--base);
 }
 .moon:after {
-  background: #B160C2;
-  -moz-box-shadow: inset -10px 0 7px 0px #B160C2;
-  -webkit-box-shadow: inset -10px 0 7px 0px #B160C2;
-  box-shadow: inset -10px 0 7px 0px #B160C2;
+  background: var(--base);
+  -moz-box-shadow: inset -10px 0 7px 0px var(--base);
+  -webkit-box-shadow: inset -10px 0 7px 0px var(--base);
+  box-shadow: inset -10px 0 7px 0px var(--base);
 }
 
 /* Animation */
@@ -70,17 +70,17 @@ body {
     background: #04162E;
   }
   25%, 100% {
-    background: #B160C2;
+    background: var(--base);
   }
   0% {
-    -moz-box-shadow: inset 0px 0 7px 0px #B160C2;
-    -webkit-box-shadow: inset 0px 0 7px 0px #B160C2;
-    box-shadow: inset 0px 0 7px 0px #B160C2;
+    -moz-box-shadow: inset 0px 0 7px 0px var(--base);
+    -webkit-box-shadow: inset 0px 0 7px 0px var(--base);
+    box-shadow: inset 0px 0 7px 0px var(--base);
   }
   24.99% {
-    -moz-box-shadow: inset 55px 0 7px 0px #B160C2;
-    -webkit-box-shadow: inset 55px 0 7px 0px #B160C2;
-    box-shadow: inset 55px 0 7px 0px #B160C2;
+    -moz-box-shadow: inset 55px 0 7px 0px var(--base);
+    -webkit-box-shadow: inset 55px 0 7px 0px var(--base);
+    box-shadow: inset 55px 0 7px 0px var(--base);
   }
   25% {
     -moz-box-shadow: inset 55px 0 7px 0px #04162E;
@@ -128,7 +128,7 @@ body {
     opacity: 1;
   }
   0%, 50%, 74.99% {
-    background: #B160C2;
+    background: var(--base);
   }
   75%, 100% {
     background: #04162E;
@@ -144,14 +144,14 @@ body {
     box-shadow: inset 55px 0 7px 0px #04162E;
   }
   75% {
-    -moz-box-shadow: inset 55px 0 7px 0px #B160C2;
-    -webkit-box-shadow: inset 55px 0 7px 0px #B160C2;
-    box-shadow: inset 55px 0 7px 0px #B160C2;
+    -moz-box-shadow: inset 55px 0 7px 0px var(--base);
+    -webkit-box-shadow: inset 55px 0 7px 0px var(--base);
+    box-shadow: inset 55px 0 7px 0px var(--base);
   }
   100% {
-    -moz-box-shadow: inset 0 0 7px 0px #B160C2;
-    -webkit-box-shadow: inset 0 0 7px 0px #B160C2;
-    box-shadow: inset 0 0 7px 0px #B160C2;
+    -moz-box-shadow: inset 0 0 7px 0px var(--base);
+    -webkit-box-shadow: inset 0 0 7px 0px var(--base);
+    box-shadow: inset 0 0 7px 0px var(--base);
   }
   0%, 50%, 100% {
     -moz-border-radius: 50%;
@@ -199,7 +199,7 @@ body {
   -webkit-animation-play-state: paused;
       -moz-animation-play-state: paused;
       -o-animation-play-state: paused;
-      animation-delay: - var(--phase);
+      animation-delay: var(--phase);
 }
 
 /* stars */
