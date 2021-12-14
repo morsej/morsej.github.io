@@ -6,19 +6,18 @@
       inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
 
       function handleUpdate(e) {
-		
 		var moon = document.getElementById('moon');
         // append 'px' to the end of spacing and blur variables
 		var amount = this.value;
-		if(amount > 50){
+		if(amount > 50 && this.id != 'base'){
 			amount = amount - ((amount - 50) * 2)
 			
 			moon.setAttribute('style', 'transform: scale(-2);');
-		}else{
+		}else if(this.id != 'base'){
 			moon.setAttribute('style', 'transform: scale(2);');
 		}
 		  
-		const negValue = (amount * -1);
+		const negValue = (this.id === 'base' ? amount : amount * -1);
         const suffix = (this.id === 'base' ? '' : 's');
         document.documentElement.style.setProperty(`--${this.id}`, negValue + suffix);
       }
